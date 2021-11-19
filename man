@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="kir" fetch="https://github.com/End3rrio/Mobilki2"/>
+
+    <project path="tree/main/device/mirea/it1" name="MobPrac2" remote="kir" revisiom="main" />
+
+    <remote name="phh" fetch="https://github.com/phhusson/" />
+
+    <remove-project name="platform_frameworks_av"/>
+    <project path="frameworks/av" name="platform_frameworks_av" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_frameworks_native"/>
+    <project path="frameworks/native" name="platform_frameworks_native" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_frameworks_native"/>
+    <project path="frameworks/native" name="platform_frameworks_native" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_packages_apps_Bluetooth"/>
+    <project path="frameworks/Bluetooth" name="platform_packages_apps_Bluetooth" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_external_selinux"/>
+    <project path="frameworks/selinux" name="platform_external_selinux" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_system_core"/>
+    <project path="frameworks/core" name="platform_system_core" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_system_nfc"/>
+    <project path="frameworks/nfc" name="platform_system_nfc" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_system_extras"/>
+    <project path="frameworks/extras" name="platform_system_extras" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_frameworks_base"/>
+    <project path="frameworks/base" name="platform_frameworks_base" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_bootable_recovery"/>
+    <project path="frameworks/recovery" name="platform_bootable_recovery" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_system_bt"/>
+    <project path="frameworks/bt" name="platform_system_bt" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_system_vold"/>
+    <project path="frameworks/vold" name="platform_system_vold" remote="phh" revisiom="android-11.0.0_r48-phh" />
+
+    <remove-project name="platform_frameworks_opt_telephony"/>
+    <project path="frameworks/telephony" name="platform_frameworks_opt_telephony" remote="phh" revisiom="android-11.0.0_r48-phh" />
+</manifest>
